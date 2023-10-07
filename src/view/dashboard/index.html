@@ -18,8 +18,52 @@
 
 <body>
     <main>
-        <div class="d-flex flex-column">
-            <div class="col-6" id="map"></div>
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column flex-shrink-0 bg-secondary vh-100" style="width: 4.5rem;">
+                <a href="./" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Icon-only">
+                    <img src="/src/img/logo.jpg" class="img-fluid rounded rounded-circle" alt="">
+                    <span class="visually-hidden">Icon-only</span>
+                </a>
+                <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+                    <li class="nav-item">
+                        <a href="#" data-bs-toggle="popover" data-bs-trigger="hover focus"
+                            data-bs-content="Disabled popover" class="nav-link active py-3 border-bottom"
+                            aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right"
+                            data-bs-original-title="Home">
+                            <i class="fa fa-map-marker"></i>
+                            <img src="/src/img/map-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <img src="/src/img/analytics-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Orders">
+                            <img src="/src/img/file-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown border-top">
+                    <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-original-title="Orders">
+                        <img src="/src/img/logout-icon.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <h3 class="fw-bold">Mapa de calor</h3>
+
+                <div class=""></div>
+                <div class="d-flex flex-column">
+                    <div class="col-6" id="map"></div>
+                </div>
+            </div>
         </div>
     </main>
 </body>

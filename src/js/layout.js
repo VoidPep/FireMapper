@@ -10,9 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     appCss.href = "/src/css/app.css";
     appCss.type = "text/css"
 
-
-    document.head.appendChild(appCss);
     document.head.appendChild(bootstrap);
-
-    console.log(document.head);
+    document.head.appendChild(appCss);
 });

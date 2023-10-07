@@ -1,5 +1,18 @@
 #map {
     max-width: 100%;
-    height: 180px;
-    width: 50%;
+    height: 500px;
+    width: auto;
+
+    border: #1b222a 2px solid;
+    border-radius: 25px;
+}
+
+.bg-secondary {
+    background-color: #1b222a !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #e74a1b !important;
 }
