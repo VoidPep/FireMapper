@@ -10,3 +10,9 @@ Nasa international space apps challenge hackaton promoted by uniCesumar
 Choosed challenge:
 Managing Fire: Increasing Community-based Fire Management Opportunities
    NASA’s satellite-derived active fire data are freely available and provide valuable information to a wide range of users. However, as wildfires continue to increase in frequency, number, and size, the need for more diverse stakeholder groups to understand and use these data is rapidly expanding. Your challenge is to develop solutions to address fire and natural resource monitoring through innovative use of technology and publicly available data, enabling local communities to report and monitor fires and/or improve current data distribution.
+
+
+sources:
+https://www.figma.com/file/lra9csiJujPsH3xA3y8Q76/Untitled?type=design&node-id=0-1&mode=design&t=a3xsvCvaNEimX5Ez-0
+
+https://firms.modaps.eosdis.nasa.gov/api/
