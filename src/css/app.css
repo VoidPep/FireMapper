@@ -7,6 +7,10 @@
     border-radius: 25px;
 }
 
+.rounded-3 {
+    border-radius: 20% !important;
+}
+
 .bg-secondary {
     background-color: #1b222a !important;
 }
@@ -19,7 +23,7 @@
     background-color: rgb(222, 107, 0);
 }
 
-.bg-yellow {    
+.bg-yellow {
     background-color: rgb(221, 206, 121);
 }
 

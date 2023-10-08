@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas</title>
+
+    <script type="module" src="/src/js/layout.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column flex-shrink-0 bg-secondary vh-100" style="width: 4.5rem;">
+                <a href="./" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Icon-only">
+                    <img src="/src/img/logo.jpg" class="img-fluid rounded rounded-circle" alt="">
+                    <span class="visually-hidden">Icon-only</span>
+                </a>
+                <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+                    <li class="nav-item">
+                        <a href="index.html" data-bs-toggle="popover" data-bs-trigger="hover focus"
+                            data-bs-content="Disabled popover" class="nav-link py-3 border-bottom" aria-current="page"
+                            title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <i class="fa fa-map-marker"></i>
+                            <img src="/src/img/map-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grafico.html" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <img src="/src/img/analytics-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 border-bottom active" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Orders">
+                            <img src="/src/img/file-icon.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown border-top">
+                    <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-original-title="Orders">
+                        <img src="/src/img/logout-icon.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <h3 class="fw-bold">
+                    Alertas
+                </h3>
+                <div class="d-flex flex-row">
+
+                    <div class="d-flex flex-column col-2">
+                        <div class="card border rounded-3 border-2 my-2 col-auto">
+                            <div class="card-body">
+                                <p>#0001</p>
+                                <p>Hoje às 8:30</p>
+                                <p class="d-flex flex-row justify-content-between align-items-baseline">
+                                    <span class="me-4">5 km</span>
+                                    <span>Intensidade</span>
+                                    <span style="width: 15px; height: 15px;" class="bg-red mx-2"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border rounded-3 my-2 border-2">
+                            <div class="card-body">
+                                <p>#0002</p>
+                                <p>Hoje às 9:30</p>
+                                <p class="d-flex flex-row justify-content-between align-items-baseline">
+                                    <span class="me-4">5 km</span>
+                                    <span>Intensidade</span>
+                                    <span style="width: 15px; height: 15px;" class="bg-orange mx-2"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border rounded-3 my-2 border-2">
+                            <div class="card-body">
+                                <p>#0003</p>
+                                <p>Hoje às 6:00</p>
+                                <p class="d-flex flex-row justify-content-between align-items-baseline">
+                                    <span class="me-4">5 km</span>
+                                    <span>Intensidade</span>
+                                    <span style="width: 15px; height: 15px;" class="bg-red mx-2"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
