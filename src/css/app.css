@@ -11,6 +11,22 @@
     background-color: #1b222a !important;
 }
 
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: rgb(222, 107, 0);
+}
+
+.bg-yellow {    
+    background-color: rgb(221, 206, 121);
+}
+
+.btn-secondary {
+    background-color: #1b222a !important;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;

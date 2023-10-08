@@ -12,7 +12,9 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-    <script src="/src/js/layout.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+    <script type="module" src="/src/js/layout.js"></script>
     <script src="/src/js/map.js"></script>
 </head>
 
@@ -57,11 +59,30 @@
             </div>
 
             <div class="container my-5">
-                <h3 class="fw-bold">Mapa de calor</h3>
+                <div class="d-flex flex-row justify-content-between">
+                    <h3 class="fw-bold">Mapa de calor</h3>
+                    <p>38°C - Brazil - Maringá PR</p>
+                </div>
 
-                <div class=""></div>
                 <div class="d-flex flex-column">
+                    <p class="">última atualização ás 01:19</p>
                     <div class="col-6" id="map"></div>
+                </div>
+
+
+                <div class="mt-4 d-flex flex-row justify-content-between">
+                    <button type="button" class="btn btn-secondary">Atualizar</button>
+
+                    <div class="card">
+                        <div class="card-body bg-light d-flex flex-row align-items-center justify-content-baseline">
+                            <span style="width: 15px; height: 15px;" class="bg-red mx-2"></span>
+                            <span>Muito quente</span>
+                            <span style="width: 15px; height: 15px;" class="bg-orange mx-2"></span>
+                            <span>Quente</span>
+                            <span style="width: 15px; height: 15px;" class="bg-yellow mx-2"></span>
+                            <span>Temperatura acima da ambiente</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
